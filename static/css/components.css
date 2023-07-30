@@ -1,0 +1,35 @@
+#searchButton{
+	display: block;
+	width:20px;
+	height:20px;
+	background:url("../../res/icons/searchbar-icon.svg");
+	background-size: cover;
+}
+#menuButton{
+	display: none;
+	width:20px;
+	height:20px;
+	background:url("../../res/icons/three_lines.svg");
+	background-size: cover;
+}
+
+.header-left{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.header-left span{
+	font-size: 1.2rem;
+	font-family: 'Lexend', sans-serif;
+	line-height: var(--app-bar-height);
+}
+.header-left label{
+	margin: 10px;
+	line-height: var(--app-bar-height);
+}
+.header-right a{
+	margin: 10px;
+	line-height: var(--app-bar-height);
+}
+.header-center a{
+	line-height: var(--app-bar-height);
+}
